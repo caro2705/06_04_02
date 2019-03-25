@@ -1,9 +1,62 @@
 body {
-    margin: 0;
+    background-color: #373C46;
 }
 
-.splash {
-    background-color: gray;
-    display: flex;
-    height: 70px;
+header {}
+
+.menu {
+
+    background-color: #28292c;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    float: right;
+    margin: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.menu img {
+    margin: 10px;
+    width: 200px;
+}
+
+.footerinfo {
+    text-align: left;
+    background-color: #28292c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer img {
+    width: 50px;
+
+
+}
+
+footer ul li {
+    display: inline;
+    margin: 10px;
+}
+
+footer p {
+    line-height: 1.7;
+    text-indent: 50px;
+    font-weight: lighter;
+
 }
